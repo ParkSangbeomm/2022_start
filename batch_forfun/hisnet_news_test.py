@@ -46,7 +46,7 @@ url = 'https://hisnet.handong.edu/'
 webdriver_options = webdriver.ChromeOptions()
 webdriver_options .add_argument('headless')
 # step2. 크롬드라이버로 hisnet 접속
-driver = webdriver.Chrome('/Users/parksangbeomm/Desktop/batch_forfun/chromedriver', options=webdriver_options)
+driver = webdriver.Chrome('', options=webdriver_options)
 
 
 driver.get(url)
@@ -60,14 +60,14 @@ tag_pw = driver.find_element_by_name('password')
 tag_id.clear()
 
 # 3-2. id 입력
-uid = "shb598999"
+uid = ""
 tag_id.click()
 pyperclip.copy(uid)
 tag_id.send_keys(Keys.COMMAND, 'v')
 time.sleep(0.5)
 
 # 3-3. pw 입력
-upw = "park~^^99"
+upw = ""
 tag_pw.click()
 pyperclip.copy(upw)
 tag_pw.send_keys(Keys.COMMAND, 'v')
