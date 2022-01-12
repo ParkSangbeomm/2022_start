@@ -1,0 +1,3 @@
+#!/bin/bash
+
+python /Users/parksangbeomm/Desktop/batch_forfun/hisnet_news.py
