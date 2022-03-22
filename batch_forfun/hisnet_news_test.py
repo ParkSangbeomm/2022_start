@@ -3,7 +3,7 @@
 """
 Created on Wed Jan 12 09:13:10 2022
 
-@author: parksangbeomm
+@author: parksangbeomm   
 """
 
 import webbrowser
