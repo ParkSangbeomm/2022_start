@@ -15,7 +15,6 @@ import something
 
 
 
-
 place_list = {'01_타타대우상용차' : '2e0e492a-082e-4142-aafc-46fa6624234b', 
               '02_푸드뱅크 사무실' : 'e34ce08f-23a9-4fb9-8e93-635bb12fc4e3', 
               '03_D동 1층 GM대우(cd구역EPS)' : '263be482-9b18-4e0c-bb15-36fe04e880e2', 
