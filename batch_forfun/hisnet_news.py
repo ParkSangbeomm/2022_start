@@ -13,6 +13,7 @@ from selenium.webdriver.common.alert import Alert
 import time
 import pyperclip
 import threading
+import nothing
 
 def check_func():
     global init_count, count, pre_count
