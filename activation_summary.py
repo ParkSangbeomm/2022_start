@@ -11,8 +11,7 @@ import shutil
 import json   
 import csv    
 import pandas as pd
-import everything_hr
-
+import everything
 
 
 place_list = {'01_타타대우상용차' : '2e0e492a-082e-4142-aafc-46fa6624234b', 
